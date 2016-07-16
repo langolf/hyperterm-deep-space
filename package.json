@@ -1,0 +1,14 @@
+{
+  "name": "hyperterm-deep-space",
+  "version": "1.0.0",
+  "description": "Hyperterm theme based on Deep Space theme",
+  "main": "index.js",
+  "keywords": [
+    "hyperterm",
+    "hyperterm-theme",
+    "colors",
+    "deep-space"
+  ],
+  "author": "Aleksandr Langolf",
+  "license": "MIT"
+}
