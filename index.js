@@ -1,28 +1,42 @@
+const backgroundColor = "#1b202a";
+const foregroundColor = "#c9d0dc";
+
+const RED         = "#b15e7c";
+const GREEN       = "#709d6c";
+const BLUE        = "#608cc3";
+const YELLOW      = "#b5a262";
+const CYAN        = "#56adb7";
+const PINK        = "#ca8bba";
+const WHITE       = foregroundColor;
+const PURPLE      = "#8f72bf";
+const MEDIUM_GRAY = "#9aa7bd";
+
+const colors = {
+  black:        backgroundColor,
+  red:          RED,
+  green:        GREEN,
+  blue:         BLUE,
+  yellow:       YELLOW,
+  cyan:         CYAN,
+  magenta:      PINK,
+  white:        WHITE,
+  lightblack:   MEDIUM_GRAY,
+  lightRed:     PURPLE,
+  lightGreen:   GREEN,
+  lightYellow:  YELLOW,
+  lightBlue:    BLUE,
+  lightMagenta: PINK,
+  lightCyan:    CYAN,
+  lightWhite:   WHITE
+}
+
 exports.decorateConfig = (config) => {
   return Object.assign({}, config, {
     borderColor: '#2a3341',
     cursorColor: 'rgba(96, 140, 195, 0.5)',
-    foregroundColor: '#c9d0dc',
-    backgroundColor: '#1b202a',
-    colors: [
-      "#21252b",
-      "#b15e7c", // red
-      "#709d6c", // green
-      "#b5a262", // yellow
-      "#608cc3", // blue
-      "#ca8bba", // pink
-      "#56adb7", // cyan
-      "#9aa7bd", // light gray
-      "#51617d", // medium gray
-      "#b15e7c", // red
-      "#709d6c", // green
-      "#b5a262", // yellow
-      "#608cc3", // blue
-      "#ca8bba", // pink
-      "#56adb7", // cyan
-      "#c9d0dc", // white
-      "#abb2bf"
-    ],
+    backgroundColor,
+    foregroundColor,
+    colors,
     css: `
       ${config.css || ''}
       .tab_active:before {
