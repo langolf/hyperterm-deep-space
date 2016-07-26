@@ -3,6 +3,10 @@
   "version": "1.0.2",
   "description": "Hyperterm theme based on Deep Space theme",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/langolf/hyperterm-deep-space"
+  },
   "keywords": [
     "hyperterm",
     "hyperterm-theme",
@@ -10,5 +14,6 @@
     "deep-space"
   ],
   "author": "Aleksandr Langolf",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/langolf/hyperterm-deep-space#readme"
 }
